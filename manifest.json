@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Copy Paste - Best of Wines to UPS ",
+  "description": "This extension copy pastes input values from one site to another",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "http://bestofwines.nl/admin/",
+    "http://bestofwines.com/admin/"
+  ]
+}
